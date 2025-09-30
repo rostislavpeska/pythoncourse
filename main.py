@@ -16,7 +16,7 @@ def work() -> None:
 work()
 res = get_numbers()
 print(res)
-"""
+
 x = 1
 
 def greet_user(name: str = "user") -> None:
@@ -24,3 +24,7 @@ def greet_user(name: str = "user") -> None:
 
 greet_user()
 greet_user("admin")
+
+"""
+
+import matplotlib as plt
