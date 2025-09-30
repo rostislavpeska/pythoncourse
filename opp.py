@@ -1,17 +1,15 @@
 from dog import Dog
 from dogshelter import DogShelter
 
-my_dog = Dog("jezevcik", 12, "Woof")
-my_dog2 = Dog("retriever", 9, "Woa Woa")
 
-animal = [
-    my_dog,
-    my_dog2
+dog_list = [
+    Dog("jezevcik", 12, "Woof"),
+    Dog("retriever", 9, "Woa Woa")
 ]
 
-animal_list = DogShelter(animal)
+dog_shelter = DogShelter(dog_list)
 
-animal_list.bark_all()
+dog_shelter.bark_all()
 
 """
 
