@@ -13,5 +13,3 @@ class Animal (ABC):
     def do_command(self, command: str):
         if command == "make_sound":
             self._make_sound()
-
-...
