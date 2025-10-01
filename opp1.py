@@ -1,4 +1,7 @@
+from animal import Animal
+from cat import Cat
 from dog import Dog
+from zoo import Zoo
 from dogshelter import DogShelter
 from custom_exceptions import DogNotFoundException
 
@@ -34,3 +37,18 @@ except DogNotFoundException as dnf:
     print("Dog already died.")
 
 print ("end of program")
+
+dog = Dog(chip_num=5, age=10, race="Retriever", says="Woof")
+dog.go_abroad(10)
+
+cat = Cat(21, 6, "Whiskas")
+
+print(cat._chip_num, cat.age, cat.race)
+
+cat.do_command("make_sound")
+
+cat_list = [cat]
+
+animals = Zoo(dog_list + cat_list)
+
+animals.make_sound_all()
