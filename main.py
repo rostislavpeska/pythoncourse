@@ -25,6 +25,8 @@ def greet_user(name: str = "user") -> None:
 greet_user()
 greet_user("admin")
 
+
+
+import matplotlib as pl
 """
 
-import matplotlib as plt
