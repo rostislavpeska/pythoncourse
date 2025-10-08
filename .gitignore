@@ -1,1 +1,12 @@
+# Logs
 *.log
+
+# Python virtual environments
+venv/
+venv3/
+.venv/
+env/
+.env/
+
+# VS Code settings that can reference interpreters
+.vscode/
